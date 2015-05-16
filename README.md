@@ -1,6 +1,6 @@
 # TaskWarrior Report
 
-A supplement script to kostajh/taskwarrior-time-tracking-hook.
+A supplement script to http://github.com/kostajh/taskwarrior-time-tracking-hook.
 Getting total time for complete tasks on a project.
 
 ## Usage
