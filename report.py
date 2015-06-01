@@ -18,7 +18,8 @@ def argparser():
 
 
 def get_total(tasks):
-    return sum([int(t['totalactivetime'].split('seconds')[0]) for t in tasks])
+    return sum([int(t['totalactivetime'].split('seconds')[0]) for t in tasks
+                if t.get('totalactivetime')])
 
 
 def parse_seconds(sec):
